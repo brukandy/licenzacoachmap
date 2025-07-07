@@ -64,14 +64,21 @@ svg {
     bottom: 120%;
     left: 50%;
     transform: translateX(-50%);
-    white-space: nowrap;
     box-shadow: 0 2px 10px rgba(0,0,0,0.15);
     transition: opacity 0.3s;
-    z-index: 10;
+    z-index: 9999;
+    max-width: 380px;
+    min-width: 320px;
+    font-size: 12.5px;
+    white-space: normal;
+    word-break: break-word;
   }
   .title:hover .tooltip {
     visibility: visible;
     opacity: 1;
+  }
+  .pin:hover {
+    z-index: 10000;
   }
 </style>
 <style>
@@ -169,7 +176,7 @@ html, body {
 </div>
 <div class="pin" style="top: 420px; left:   29%">
 <div class="title">Assegnazione del 1° Coachee
-        <span class="tooltip">Non appena padroneggerai l’intero flusso di monitoraggio ed erogazione delle coaching secondo il Codice ICF e lo Standard Leone Master School, ti sarà assegnato il 1° Coachee da seguire e avrai un supervisore che potrà seguire il tuo lavoro e monitorare i tuoi progressi.</span>
+        <span class="tooltip">Non appena padroneggerai l’intero flusso di monitoraggio ed erogazione delle coaching secondo lo Standard Leone Master School, ti sarà assegnato il 1° Coachee da seguire e avrai un supervisore che potrà seguire il tuo lavoro e monitorare i tuoi progressi.</span>
 </div>
 </div>
 <div class="pin" style="top: 255px; left:   31.26%">
@@ -178,8 +185,8 @@ html, body {
 </div>
 </div>
 <div class="pin" style="top: 295px; left:   46.33%">
-<div class="title">Due Videocall su Personal<br> Branding al mese
-        <span class="tooltip">Oltre alle coaching, parteciperai ogni mese a 2 videocall live pratiche in formato Q&A, pensate per aiutarti a venderti e sponsorizzarti nel tuo territorio, così da attrarre clienti proprio dove vivi.</span>
+<div class="title">Q&A Live Formativo<br> per promuoverti
+        <span class="tooltip">Parteciperai a formazione live in formato teorico e di domande e risposte per conoscere i capi saldi del marketing e della vendita, in modo da venderti e sponsorizzarti per attrarre nuovi clienti</span>
 </div>
 </div>
 <div class="pin" style="top: 330px; left:   61.99%">
@@ -194,8 +201,8 @@ html, body {
 </div>
 <!-- Copia spostata Meta Ads -->
 <div class="pin" style="top: 556px; left: 74.48%">
-  <div class="title">Videocorso<br> Personal Branding
-    <span class="tooltip">Per continuare la tua formazione in marketing, vendita e sviluppo della rete clienti, hai subito accesso a videolezioni pratiche per creare da zero strategie di social media, network e personal branding nel tuo territorio.</span>
+  <div class="title">Affiancamento<br> Personal Branding
+    <span class="tooltip">Ricevi un affiancamento personalizzato per costruire e sviluppare la tua identità e la tua strategia di promozione come Coach sul territorio</span>
   </div>
 </div>
 <!-- Copia spostata prova 1 -->
@@ -206,8 +213,8 @@ html, body {
 </div>
 <!-- Copia spostata prova 2 -->
 <div class="pin" style="top: 480px; left: 43%">
-  <div class="title">Fino a dieci<br> Coachee l’anno
-    <span class="tooltip">Man mano che il tuo percorso come Coach Professionista sarà supervisionato e reputato in linea con gli Standard ICF-Leone Master School, otterrai sempre più coachee fino ad un massimo di dieci l’anno.</span>
+  <div class="title">A partire da 5<br> Coachee l’anno
+    <span class="tooltip">Man mano che il tuo percorso come Coach Professionista sarà supervisionato e reputato in linea con lo Standard Leone Master School, otterrai sempre più coachee a partire da 5 l’anno.</span>
   </div>
 </div>
 <div class="pin" style="top: 460px; left:   90.74%">
